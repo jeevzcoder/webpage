@@ -1,0 +1,91 @@
+body{
+	margin:0px;
+}
+
+.border{
+	left:0px;
+	right:0px;
+    height:100px;
+    width:100%;
+    background-color: black;
+    position:fixed;
+    z-index: 100;
+}
+
+.div-logo{
+	height:100%; 
+	float:left;
+	margin:10px;
+	text-align: center;
+}
+.div-text{
+	display:block;
+	font-family: "Helvetica Neve";
+	color:white;
+	font-weight:bold;
+}
+
+.nav-contents{
+	float:right;
+	height:100%;
+} 
+
+.nav-contents a{
+	color:white;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Helvetica Neve";
+	padding-right: 20px;
+	padding-top: 12%;
+	display:inline-block;
+}
+
+.background{
+	position: absolute;
+	top: 78px;
+	width:100%;
+}
+.image-content{
+	background-image: url("background-image.webp");
+	height:700px;
+	width:100%;
+    text-align: center;
+}
+.background-text{
+	font-size: 25px;
+	font-family:"Helvetica Neve";
+	color:white;
+	position:relative;
+	top:8%;
+    left:5%;
+}
+
+.cards{
+	width:100%;
+}
+
+#products {
+	text-align:center;
+}
+
+.card-contents{
+	height:100%;
+	width:22%;
+	padding:1.5%;
+	float:left;
+		text-align:center;
+}
+
+
+.card-contents img{ 
+	width:100%;
+}
+
+
+.form-contents{
+	margin:0 auto;
+}
+
+
+
+
